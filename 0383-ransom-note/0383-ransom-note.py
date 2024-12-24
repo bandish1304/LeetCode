@@ -1,6 +1,7 @@
 class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
         counter = {}
+        
         for c in magazine:
             if c in counter:
                 counter[c] += 1
@@ -16,11 +17,7 @@ class Solution:
                 counter[c] -= 1
                 
         return True
-    
-    # Time complexity: O(m+n)
-    # Space complexity: O(1)
                 
-    
+        
                     
-                
         
