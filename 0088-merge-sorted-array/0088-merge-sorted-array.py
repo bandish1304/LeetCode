@@ -3,23 +3,20 @@ class Solution:
         """
         Do not return anything, modify nums1 in-place instead.
         """
-        i = 0
-        j = 0
-        while i < m and j < n:
-            if nums1[i] <= nums2[j]:
-                nums1.append(nums1[i])
-                i = i+1
+        x, y = m-1, n-1
+        
+        for z in range(m + n -1, -1, -1):
+            if x < 0:
+                nums1[z] = nums2[y]
+                y -=1
+            elif y < 0:
+                break
+            elif nums1[x] > nums2[y]:
+                nums1[z] = nums1[x]
+                x -= 1
             else:
-                nums1.append(nums2[j])
-                j = j + 1
-        while j < n:
-            nums1.append(nums2[j])
-            j = j+ 1
-        while i < m:
-            nums1.append(nums1[i])
-            i = i+1
-        i = 0
-        j = 0
-        while i < len(nums1):
-            nums1.pop(j)
-            i += 1
+                nums1[z] = nums2[y]
+                y -= 1
+                
+            
+        
