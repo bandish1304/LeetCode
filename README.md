@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0027-remove-element](https://github.com/bandish1304/LeetCode/tree/master/0027-remove-element) |
+| [0125-valid-palindrome](https://github.com/bandish1304/LeetCode/tree/master/0125-valid-palindrome) |
 ## Hash Table
 |  |
 | ------- |
@@ -17,4 +18,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0138-copy-list-with-random-pointer](https://github.com/bandish1304/LeetCode/tree/master/0138-copy-list-with-random-pointer) |
+## String
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/bandish1304/LeetCode/tree/master/0125-valid-palindrome) |
 <!---LeetCode Topics End-->
